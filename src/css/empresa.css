@@ -1,0 +1,88 @@
+.empresa{
+    width: 1200px;
+    padding: 25px 40px;
+    min-height: 400px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    display: flex;
+}
+
+.empresa-foto {
+    flex: 0.3;
+    padding: 20px 40px;
+}
+
+.empresa-mensagem {
+    padding: 20px 40px;
+}
+
+.empresa-mensagem-titulo {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 46px;
+    color: #014561;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.empresa-mensagem-titulo::before {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    top: 60px;
+    background-color: #70B0C4;
+    -webkit-transform: scaleX(0.5);
+    transform: scaleX(0.5);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.empresa-mensagem-titulo:hover::before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.empresa-mensagem-corpo-1 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 141.3%;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.empresa-mensagem-corpo-2 {
+    font-family: 'Cormorant';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 141.3%;
+    color: #1C86A4;
+    position: relative;
+}
+
+.empresa-mensagem-corpo-2::after {
+    content: '”';
+    position: absolute;
+    right: 0;
+    bottom: -70px;
+    font-size: 500px;
+    color: rgba(112, 176, 196, 0.1);
+}
+
+.empresa-mensagem-corpo-3 {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 141.3%;
+    color: #828282;
+    float: right;
+}
+  

@@ -1,0 +1,57 @@
+.condicaoespecial{
+    max-width: 1200px;
+    padding: 25px 40px;
+    min-height: 400px;
+    margin: 0 auto;
+    display: flex;
+    background: rgb(1, 55, 76, 1);
+    background: linear-gradient(rgb(1, 55, 76, 0.95), rgb(1, 55, 76, 0.95)), url("../img/back_condicaoespecial.png");
+    background: linear-gradient(rgb(1, 55, 76, 0.95), rgb(1, 55, 76, 0.95)), url("../img/back_condicaoespecial.png");
+    display: flex;
+}
+
+.condicaoespecial-mensagem{
+    padding: 20px 40px;
+    position: relative;
+}
+
+.condicaoespecial-mensagem h2{
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 53px;
+    line-height: 64px;
+    text-transform: uppercase;
+    color: #BE9667;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.condicaoespecial-mensagem h4{
+    font-family: 'Cormorant';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #BE9667;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.condicaoespecial-mensagem p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 45px;
+    color: #C4C4C4;
+    margin-left: 30px;
+}
+
+.condicaoespecial-mensagem p::before{
+    content: "";
+    width: 15px;
+    height: 2px;
+    background-color: #BE9667;
+    position: absolute;
+    left: 40px;
+    margin-top: 22px;
+}

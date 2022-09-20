@@ -1,0 +1,87 @@
+.alfaiataria{
+    width: 1200px;
+    padding: 25px 40px;
+    min-height: 400px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
+.alfaiataria-item {
+    padding: 20px 80px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.alfaiataria-item > div{
+    flex: 0.5;
+    position: relative;
+}
+
+.alfaiataria-item > div > h2{
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 62px;
+    line-height: 75px;
+    text-transform: uppercase;
+    color: #014561;
+    text-align: left;
+}
+
+.alfaiataria-item > div > p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #C4C4C4;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.alfaiataria-item > div > p::before{
+    content: "";
+    width: 15px;
+    height: 1px;
+    background-color: #BE9667;
+    position: absolute;
+    left: 6px;
+    margin-top: 10px;
+}
+
+.alfaiataria-item ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    font-family: 'Cormorant';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #727272;
+    list-style: inherit;
+    list-style-position: inside;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.border-1 {
+    border: 1px solid #E5E5E5;
+    width: 550px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    padding: 40px;
+}
+
+.border-2{
+    border: 1px solid #1C86A4;
+    width: 340px;
+    height: 260px;
+    position: absolute;
+    top: 10px;
+    padding: 40px;
+}
+

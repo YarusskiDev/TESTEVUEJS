@@ -1,0 +1,76 @@
+.camisaria{
+    width: 1280px;
+    min-height: 350px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    display: flex;
+}
+
+.camisaria-mensagem {
+    background: #EFF7F9;
+    background-image: url("../img/back_camisaria_1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px 40px;
+}
+
+.camisaria-mensagem-1 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 141.3%;
+    text-align: center;
+    color: #828282;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 50px;
+}
+
+.camisaria-mensagem-2 {
+    font-family: 'Cormorant';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 141.3%;
+    text-align: center;
+    color: #014561;
+    margin-top: 20px;
+}
+
+.camisaria-mensagem-3 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 141.3%;
+    text-align: center;
+    color: #BE9667;
+}
+
+.camisaria-foto {
+    min-width: 200px;
+    flex: 0.1;
+    padding: 40px 40px;
+    position: relative;
+    background: rgb(1, 55, 76, 1) no-repeat;
+    background: linear-gradient(rgb(1, 55, 76, 0.8), rgb(1, 55, 76, 0.8)), url("../img/person_nesongaray_2.png") no-repeat;
+    background: linear-gradient(rgb(1, 55, 76, 0.8), rgb(1, 55, 76, 0.8)), url("../img/person_nesongaray_2.png") no-repeat;
+}
+
+.camisaria-foto > img {
+    position: absolute;
+    z-index: 2;
+    left: -100px;
+    top: 24px;
+}
+
+.person_nelsongaray-overlay{
+    position: absolute;
+    width: 200px;
+    height: 278px;
+    background: #FFF;
+    margin-left: -116px;
+    transform: rotate(7deg);
+}
+  

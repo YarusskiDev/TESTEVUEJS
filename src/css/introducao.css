@@ -1,0 +1,58 @@
+.introducao {
+    width: 1200px;
+    padding: 25px 40px;
+    min-height: 550px;
+    margin: 0 auto;
+    background-image: url("../img/banner_introducao.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+  }
+
+  .introducao .mensagem {
+    top: 150px;
+    left: 40px;
+    position: absolute;
+    color: #fff;
+    width: 420px;
+  }
+
+  .elegante, .chamardeseu {
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32.5627px;
+    line-height: 43px;
+    color: #BE9667;
+  }
+
+  .elegante{
+    float: left;
+  }
+
+  .chamardeseu {
+    float: right;
+  }
+
+  .alfaiate{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90.0346px;
+    line-height: 80px;
+    float: right;
+    color: #024B68AD;  
+  }
+
+  .comprehoje{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 131%;
+    text-transform: uppercase;
+    color: #E5E5E5;
+    margin-top: 60px;
+    float: left;
+  }

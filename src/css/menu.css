@@ -1,0 +1,54 @@
+.header {
+    position: absolute;
+    width: 1200px;
+    right: 0;
+    left:0;
+    padding: 25px 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("../img/back_menu.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    z-index: 1;
+  }
+  
+  .header-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .header-menu a {
+    padding: 2px 4px;
+    text-decoration: none;
+    color: #949494;
+    display: block;
+    text-transform: capitalize;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .header-menu a:hover{
+    color: #ccc;
+  }
+ 
+  /*Caso seja um site responsivo, podemos usar o 
+  @media para dimensionar os 
+  elementos e organizar melhor a distribuição em tela*/
+  /* @media (max-width: 800px) {
+    .header {
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px;
+    }
+    .header a {
+      border-radius: 4px;
+    }
+  } */

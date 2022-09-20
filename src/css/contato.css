@@ -1,0 +1,89 @@
+.contato{
+    width: 1200px;
+    padding: 20px 40px;
+    min-height: 400px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.contato-titulo {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 46px;
+    color: #1C86A4;
+    margin: 40px auto;
+    position: relative;
+}
+
+.contato-titulo::before {
+    content: "";
+    position: absolute;
+    width: 125px;
+    height: 3px;
+    bottom: 0;
+    top: 60px;
+    background-color: #70B0C4;
+    -webkit-transform: scaleX(0.5);
+    transform: scaleX(0.5);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.contato-titulo:hover::before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.contato-corpo {
+    display: flex;
+    padding: 20px 40px;
+    align-items: center;
+}
+
+.contato-corpo > div {
+    flex: 0.4;
+    width: 100%;
+    text-align: left;
+}
+
+.contato-corpo p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    opacity: 0.6;
+}
+
+.contato-corpo h3:nth-child(3){
+    margin-top: 60px;
+    opacity: 0.6;
+}
+
+.contato-corpo > form {
+    flex: 0.6;
+    width: 100%;
+    padding: 20px 40px;
+}
+
+.contato-corpo > form input, .contato-corpo > form textarea {
+    margin-bottom: 10px;
+    border: 1px solid #1C86A4;
+    border-radius: 3px;
+    box-shadow: none;
+}
+
+.contato-corpo > form input, .contato-corpo > form textarea{
+    width: 100%;
+    padding: 15px 10px;
+}
+
+.contato-corpo h3{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #1C86A4;
+}

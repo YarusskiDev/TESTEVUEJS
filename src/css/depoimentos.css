@@ -1,0 +1,134 @@
+.depoimentos{
+    width: 1200px;
+    padding: 25px 40px;
+    min-height: 600px;
+    margin: 0 auto;
+    background: rgb(1, 55, 76, 1);
+    background: linear-gradient(rgb(1, 55, 76, 0.5), rgb(1, 55, 76, 0.5)), url("../img/back_depoimentos.png");
+    background: linear-gradient(rgb(1, 55, 76, 0.5), rgb(1, 55, 76, 0.5)), url("../img/back_depoimentos.png");
+    text-align: center;
+    position: relative;
+}
+
+.depoimentos-mensagem-titulo {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 46px;
+    color: #F2F2F2;
+    margin: 40px auto;
+    position: relative;
+}
+
+.depoimentos-mensagem-titulo::before {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 3px;
+    bottom: 0;
+    top: 60px;
+    background-color: #70B0C4;
+    -webkit-transform: scaleX(0.5);
+    transform: scaleX(0.5);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.depoimentos-mensagem-titulo:hover::before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.carousel li {
+    display: block;
+    position: absolute;
+    left: 0;
+    height: auto;
+    padding: 20px 140px;
+    text-align: center;
+    transition: all 500ms ease-in-out;
+}
+
+.carousel li > img{
+    margin-bottom: 20px;
+    border:2px solid #BE9667;
+    border-radius: 50%;
+}
+
+.carousel li:not(.active) {
+    opacity: 0;
+}
+
+.carousel li.active {
+    opacity: 1;
+}
+
+.carousel li p:nth-child(2){
+    font-family: 'Cormorant';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 31px;
+    text-align: center;
+    color: #C4C4C4;
+}
+
+.carousel li p:nth-child(3){
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #BE9667;
+    margin-top: 20px;
+}
+
+.carousel li p:nth-child(4){
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #949494;
+}
+
+.carousel-slider{
+    position: absolute;
+    bottom: 40px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-left: -45px;
+}
+
+.carousel-arrow {
+    width: 20px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    margin-top: 15px;
+    transition: all 200ms ease-in-out;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.carousel-arrow-left{
+    background-image: url("../img/carousel_seta_left.png");
+    left: 0;
+    margin-left: 40px;
+}
+.carousel-arrow-right{
+    background-image: url("../img/carousel_seta_right.png");
+    right: 0;
+    margin-right: 40px;
+}
+
+.carousel-arrow:hover{
+    background-color: rgba(240,240,240,0.4);
+    cursor: pointer;
+}

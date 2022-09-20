@@ -1,0 +1,97 @@
+body {
+    font-family: "Lato";
+    margin: 0px;
+    color: #141414;
+    background-color: #000;
+  }
+  
+  h1,
+  h2,
+  h3,
+  p {
+    margin: 0px;
+  }
+  
+  ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+
+  .link {
+    padding: 15px 40px;
+    background: #014561;
+    border-radius: 2px;
+    float: left;
+    text-decoration: none;
+    margin-top: 20px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #E5E5E5;
+  }
+
+  .link-1{
+    text-transform: none;
+    background-color: #BE9667;
+}
+
+  .link-2{
+    text-transform: none;
+    background-color: #014561;
+}
+
+.link-3{
+  text-transform: none;
+  background-color: #FFF;
+  color: #1C86A4;
+  border: 1px solid #1C86A4;
+}
+
+  .m-l-n60{
+    margin-left: -60px;
+}
+
+.m-l-n20{
+    margin-left: -20px;
+}
+
+.m-l-50{
+    margin-left: 50px;
+}
+
+input[type='radio']{
+  margin: 10px;
+}
+
+input[type='radio']:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #09242F;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 3px solid #014561;
+}
+
+input[type='radio']:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  opacity: 1;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #014561;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 3px solid #014561;
+}
